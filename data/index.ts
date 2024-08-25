@@ -173,15 +173,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "AWS AIA Cloud Intern",
+    desc: "We developed a robust and efficient Extract, Transform, and Load (ETL) process leveraging multiple AWS services to streamline data integration and analysis for a large-scale enterprise.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Software Developer - JSM Tech",
+    desc: "Dynamic Full Stack Developer with experience at Finfolab Technologies, specializing in algorithmic trading platforms.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
