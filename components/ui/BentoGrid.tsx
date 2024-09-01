@@ -122,10 +122,10 @@ export const BentoGridItem = ({
                 :px-3 px-3 text-xs lg:text-base opacity-15 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   ></span>
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg[#10132e]" />
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
               </div>
               <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg[#10132e]" />
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
                 {["AWS", "OCI"].map((item) => (
                   <span
                     key={item}
@@ -143,6 +143,7 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+          {id == 3 && <div className="container"></div>}
         </div>
       </div>
     </div>
