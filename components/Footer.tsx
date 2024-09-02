@@ -1,7 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
-import MagicButton from "./MagicButton";
+// import MagicButton from "./MagicButton";
 
 const Footer = () => {
   return (
@@ -25,11 +25,11 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a href="mailto:contact@jsmastery.pro">
-          <MagicButton
+          {/* <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
-          />
+          /> */}
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
