@@ -19,7 +19,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </main>
   );
