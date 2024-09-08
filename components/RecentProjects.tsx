@@ -1,7 +1,9 @@
 import React from "react";
 
 import { projects } from "@/data";
+import { PinContainer } from "./ui/PinContainer";
 
+console.log("recent Project");
 const RecentProjects = () => {
   return (
     <div className="py-20">
@@ -10,8 +12,10 @@ const RecentProjects = () => {
         <span className="text-purple">RecentProjects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((project) => (
-          <div></div>
+        {projects.map((item) => (
+          <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
+            <PinContainer />
+          </div>
         ))}
       </div>
     </div>
